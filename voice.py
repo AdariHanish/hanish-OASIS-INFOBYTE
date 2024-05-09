@@ -1,7 +1,7 @@
 import speech_recognition as speech #type:ignore
 import pyttsx3 #type:ignore
 import pywhatkit #type:ignore
-import datetime 
+import datetime
 import wikipedia #type:ignore
 import pyjokes #type:ignore
 listener = speech.Recognizer()
