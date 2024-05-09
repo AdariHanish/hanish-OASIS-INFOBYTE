@@ -1,9 +1,9 @@
-import speech_recognition as speech
-import pyttsx3
-import pywhatkit
-import datetime
-import wikipedia
-import pyjokes
+import speech_recognition as speech #type:ignore
+import pyttsx3 #type:ignore
+import pywhatkit #type:ignore
+import datetime 
+import wikipedia #type:ignore
+import pyjokes #type:ignore
 listener = speech.Recognizer()
 engine = pyttsx3.init()
 voices = engine.getProperty('voices')
