@@ -74,3 +74,4 @@ class PasswordGenerator:
 root = tk.Tk()
 my_gui = PasswordGenerator(root)
 root.mainloop()
+import pyperclip #type:ignore
